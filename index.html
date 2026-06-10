@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Janice Ovando | Desarrolladora Full Stack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar">
+        <div class="container nav-container">
+            <a class="nav-brand" href="#hero">Janice<span class="accent">Dev</span> <span class="star-deco"></span></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menú">
+                <i class="bi bi-list"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero" class="hero-section">
+        <div class="hero-blobs">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-text">
+                <p class="hero-eyebrow">Hola, soy</p>
+                <h1 class="hero-name">Janice <span class="accent">Ovando</span></h1>
+                <h2 class="hero-role">Desarrolladora Full Stack Jr.</h2>
+                <p class="hero-sub">Ingeniera en Sistemas Computacionales y Desarrollo de Software.</p>
+                <div class="hero-btns">
+                    <a href="#portafolio" class="btn btn-primary">Ver proyectos</a>
+                    <a href="#contacto" class="btn btn-outline">Contáctame</a>
+                </div>
+            </div>
+            <div class="hero-img-wrap">
+                <div class="hero-img-ring">
+                    <img src="./img/janOvando.png" alt="Janice Ovando" class="hero-img">
+                </div>
+                <div class="float-badge badge-top">Full Stack</div>
+                <div class="float-badge badge-bot">Java Dev</div>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <span>scroll</span>
+            <i class="bi bi-chevron-double-down"></i>
+        </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">Conóceme</p>
+                <h2 class="section-title">Sobre mí</h2>
+            </div>
+            <div class="cards-grid">
+                <div class="info-card">
+                    <div class="card-icon">🧑‍💻</div>
+                    <h3>Perfil profesional</h3>
+                    <p>Desarrolladora de software con conocimientos técnicos en programación, bases de datos y soporte técnico. Interesada en el desarrollo web y soluciones tecnológicas. Capacidad para trabajar con metodologías tradicionales y ágiles.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Metodología y objetivos</h3>
+                    <p>Aporto valor mediante el desarrollo de software innovador, combinando tecnologías modernas con una capacidad de adaptación constante para resolver desafíos técnicos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">Lo que sé hacer</p>
+                <h2 class="section-title">Habilidades</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Front-End</h3>
+                    <div class="skill-tags">
+                        <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                        <span>Bootstrap</span><span>Node</span><span>Jest</span><span>Kotlin</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Back-End</h3>
+                    <div class="skill-tags">
+                        <span>Java</span><span>SpringBoot</span><span>MySQL</span>
+                        <span>PostgreSQL</span><span>Python</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🌸</div>
+                    <h3>Habilidades Blandas</h3>
+                    <div class="skill-tags">
+                        <span>Trabajo en equipo</span><span>Comunicación</span>
+                        <span>Adaptabilidad</span><span>Autodidacta</span>
+                        <span>Organización</span><span>Proactividad</span>
+                        <span>Pensamiento lógico</span><span>Atención al detalle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV -->
+    <section id="cv" class="section">
+        <div class="container">
+            <div class="cv-layout">
+                <div class="cv-text">
+                    <p class="section-eyebrow">Mi trayectoria</p>
+                    <h2 class="section-title text-left">Mi currículum</h2>
+                    <p class="cv-desc">Ingeniería, aprendizaje continuo y desarrollo práctico. Mi formación académica y técnica me ha permitido desarrollar una base sólida en programación, lógica y desarrollo de software, complementada con proyectos reales y capacitación constante.</p>
+                    <button class="btn btn-primary" id="downloadCVBtn">
+                        <i class="bi bi-eye"></i> Visualizar CV
+                    </button>
+                </div>
+                <div class="cv-card">
+                    <h4 class="cv-card-title">Formación destacada</h4>
+                    <ul class="cv-list">
+                        <li>
+                            <span class="cv-dot">🎓</span>
+                            <span>Bootcamp Java Desarrollador Full Stack — Generation MX</span>
+                        </li>
+                        <li>
+                            <span class="cv-dot">🎓</span>
+                            <span>Ingeniería en Desarrollo de Software — UNCL</span>
+                        </li>
+                        <li>
+                            <span class="cv-dot">🎓</span>
+                            <span>Ingeniería en Sistemas Computacionales — Universidad CEUSS</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portafolio -->
+    <section id="portafolio" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">Mis proyectos</p>
+                <h2 class="section-title">Portafolio</h2>
+            </div>
+            <div class="projects-grid">
+
+                <!-- Proyecto 1 -->
+                <div class="project-card">
+                <div class="project-img-banner">
+                <img src="./img/mensajeriaTotal.png" alt="Recetario - Frontend Menu Restaurante">
+                </div>
+                    <div class="project-header">
+                        <div class="project-icon-wrap">🛍️</div>
+                        <span class="project-status status-progress">En desarrollo · 50%</span>
+                    </div>
+                    <h3>Syntax Logystic — E-Commerce</h3>
+                    <div class="project-techs">
+                        <span>HTML5</span><span>CSS</span><span>JavaScript</span>
+                        <span>Java</span><span>SpringBoot</span><span>MySQL</span>
+                    </div>
+                    <p>Realizo de manera colaborativa el Desarrollo de una plataforma web para la gestión y seguimiento de envíos. Implementación de interfaz
+                    responsiva con Bootstrap. Desarrollo de funcionalidades backend con Node.js. Integración de bases de datos MySQL para
+                    almacenamiento de información. Gestión del proyecto mediante Git y GitHub.</p>
+                    <div class="project-footer">
+                        <span class="coming-soon">Demo en camino...</span>
+                    </div>
+                </div>
+
+                        <!-- Proyecto 2 -->
+        <div class="project-card">
+            <div class="project-img-banner">
+                <img src="./img/Recetario.png" alt="Recetario - Frontend Menu Restaurante">
+            </div>
+            <div class="project-header">
+                <div class="project-icon-wrap">🍽️</div>
+                <span class="project-status status-done">Terminado · 100%</span>
+            </div>
+            <h3>Recetario — Frontend Menú Restaurante</h3>
+            <div class="project-techs">
+                <span>HTML</span><span>CSS</span><span>Bootstrap</span><span>JavaScript</span>
+            </div>
+            <p>Herramienta para automatizar el pedido de alimentos dentro de un restaurante de categoría 5 estrellas.</p>
+            <div class="project-footer">
+                <span class="coming-soon">Solo local por ahora </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">Hablemos</p>
+                <h2 class="section-title">Contáctame</h2>
+            </div>
+            <div class="contact-wrap">
+                <div class="contact-card">
+                    <p class="contact-intro">¿Tienes un proyecto en mente o quieres colaborar? ¡Escríbeme! 💌</p>
+                    <ul class="contact-list">
+                        <li>
+                            <span class="contact-icon">📧</span>
+                            <span>janiceovando.dev@gmail.com</span>
+                        </li>
+                        <li>
+                            <span class="contact-icon">💼</span>
+                            <a href="https://www.linkedin.com/in/janice-belen-ovando-garcia/" target="_blank">LinkedIn — Janice Belen Ovando Garcia</a>
+                        </li>
+                        <li>
+                            <span class="contact-icon">🐙</span>
+                            <a href="https://github.com/JaniceOvando" target="_blank">GitHub — Janice Belen Ovando Garcia</a>
+                        </li>
+                        <li>
+                            <span class="contact-icon">💬</span>
+                            <span>+52 96 8131 6841</span>
+                        </li>
+                    </ul>
+                    <div class="availability">
+                        <span class="avail-dot"></span>
+                        Disponible para trabajo de tiempo completo
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Janice Ovando · Desarrolladora Full Stack Jr. · Hecho con 💙 y mucho café ☕</p>
+        </div>
+    </footer>
+
+    <!-- Modal CV -->
+    <div class="cv-modal-overlay" id="cvModalOverlay">
+        <div class="cv-modal">
+            <div class="cv-modal-header">
+                <h3>📄 Mi Currículum</h3>
+                <button class="cv-modal-close" id="cvModalClose" aria-label="Cerrar">✕</button>
+            </div>
+            <div class="cv-modal-body" id="cvModalBody">
+                <p class="pdf-loading" id="pdfLoading">✨ Cargando CV...</p>
+                <div class="pdf-nav" id="pdfNav" style="display:none;">
+                    <button id="pdfPrev" aria-label="Anterior">‹</button>
+                    <span id="pdfPageInfo">Página 1 de 1</span>
+                    <button id="pdfNext" aria-label="Siguiente">›</button>
+                </div>
+                <canvas id="pdfCanvas"></canvas>
+            </div>
+            <div class="cv-modal-footer">
+                <button class="btn-ghost" id="cvModalCloseBtn">Cerrar</button>
+                <button class="btn btn-outline" id="cvOpenNewTab">
+                    <i class="bi bi-box-arrow-up-right"></i> Nueva pestaña
+                </button>
+                <button class="btn btn-primary" id="cvDownloadBtn">
+                    <i class="bi bi-download"></i> Descargar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
